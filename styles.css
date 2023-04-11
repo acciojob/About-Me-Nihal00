@@ -1,13 +1,25 @@
 
+main {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+}
+
 #right {
-	display:flex;
-	flex-direction: row;
+	border: 2px solid black;
 	width: 50%;
+	height: auto;
+	padding: 20px;
+
+}
+#left {
+	border: 2px solid black;
+	width: 50%;
+	height: auto;
+	padding: 20px;
 }
 
-#left{
-	display:flex;
-	flex-direction: row;
-	width: 50%;
+#left p {
+	
 }
-
