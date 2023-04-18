@@ -6,20 +6,29 @@ main {
 	justify-content: center;
 }
 
+#left {
+	border: 2px solid black;
+	display: flex;
+	width: 50%;
+	height: auto;
+	padding: 20px;
+
+}
+img {
+	height: 150px;
+	width: auto;
+}
+.personal_details {
+	left: 10px;
+}
+span {
+	display: block;
+}
 #right {
 	border: 2px solid black;
 	width: 50%;
 	height: auto;
 	padding: 20px;
-
-}
-#left {
-	border: 2px solid black;
-	width: 50%;
-	height: auto;
-	padding: 20px;
 }
 
-#left p {
-	
-}
+
